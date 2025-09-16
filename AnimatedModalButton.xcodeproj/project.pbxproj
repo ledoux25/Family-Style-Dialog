@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFCB06612E79FB3E00439B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB064B2E79FB3C00439B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCB06522E79FB3C00439B2E;
+			remoteInfo = AnimatedModalButton;
+		};
+		EFCB066B2E79FB3E00439B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB064B2E79FB3C00439B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCB06522E79FB3C00439B2E;
+			remoteInfo = AnimatedModalButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFCB06532E79FB3C00439B2E /* AnimatedModalButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedModalButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB06602E79FB3E00439B2E /* AnimatedModalButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedModalButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB066A2E79FB3E00439B2E /* AnimatedModalButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedModalButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFCB06552E79FB3C00439B2E /* AnimatedModalButton */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnimatedModalButton;
+			sourceTree = "<group>";
+		};
+		EFCB06632E79FB3E00439B2E /* AnimatedModalButtonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnimatedModalButtonTests;
+			sourceTree = "<group>";
+		};
+		EFCB066D2E79FB3E00439B2E /* AnimatedModalButtonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnimatedModalButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCB06502E79FB3C00439B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB065D2E79FB3E00439B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB06672E79FB3E00439B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCB064A2E79FB3C00439B2E = {
+			isa = PBXGroup;
+			children = (
+				EFCB06552E79FB3C00439B2E /* AnimatedModalButton */,
+				EFCB06632E79FB3E00439B2E /* AnimatedModalButtonTests */,
+				EFCB066D2E79FB3E00439B2E /* AnimatedModalButtonUITests */,
+				EFCB06542E79FB3C00439B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCB06542E79FB3C00439B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB06532E79FB3C00439B2E /* AnimatedModalButton.app */,
+				EFCB06602E79FB3E00439B2E /* AnimatedModalButtonTests.xctest */,
+				EFCB066A2E79FB3E00439B2E /* AnimatedModalButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCB06522E79FB3C00439B2E /* AnimatedModalButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB06742E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButton" */;
+			buildPhases = (
+				EFCB064F2E79FB3C00439B2E /* Sources */,
+				EFCB06502E79FB3C00439B2E /* Frameworks */,
+				EFCB06512E79FB3C00439B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFCB06552E79FB3C00439B2E /* AnimatedModalButton */,
+			);
+			name = AnimatedModalButton;
+			packageProductDependencies = (
+			);
+			productName = AnimatedModalButton;
+			productReference = EFCB06532E79FB3C00439B2E /* AnimatedModalButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFCB065F2E79FB3E00439B2E /* AnimatedModalButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB06772E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButtonTests" */;
+			buildPhases = (
+				EFCB065C2E79FB3E00439B2E /* Sources */,
+				EFCB065D2E79FB3E00439B2E /* Frameworks */,
+				EFCB065E2E79FB3E00439B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCB06622E79FB3E00439B2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFCB06632E79FB3E00439B2E /* AnimatedModalButtonTests */,
+			);
+			name = AnimatedModalButtonTests;
+			packageProductDependencies = (
+			);
+			productName = AnimatedModalButtonTests;
+			productReference = EFCB06602E79FB3E00439B2E /* AnimatedModalButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFCB06692E79FB3E00439B2E /* AnimatedModalButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB067A2E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButtonUITests" */;
+			buildPhases = (
+				EFCB06662E79FB3E00439B2E /* Sources */,
+				EFCB06672E79FB3E00439B2E /* Frameworks */,
+				EFCB06682E79FB3E00439B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCB066C2E79FB3E00439B2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFCB066D2E79FB3E00439B2E /* AnimatedModalButtonUITests */,
+			);
+			name = AnimatedModalButtonUITests;
+			packageProductDependencies = (
+			);
+			productName = AnimatedModalButtonUITests;
+			productReference = EFCB066A2E79FB3E00439B2E /* AnimatedModalButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCB064B2E79FB3C00439B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EFCB06522E79FB3C00439B2E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EFCB065F2E79FB3E00439B2E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EFCB06522E79FB3C00439B2E;
+					};
+					EFCB06692E79FB3E00439B2E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EFCB06522E79FB3C00439B2E;
+					};
+				};
+			};
+			buildConfigurationList = EFCB064E2E79FB3C00439B2E /* Build configuration list for PBXProject "AnimatedModalButton" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCB064A2E79FB3C00439B2E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFCB06542E79FB3C00439B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCB06522E79FB3C00439B2E /* AnimatedModalButton */,
+				EFCB065F2E79FB3E00439B2E /* AnimatedModalButtonTests */,
+				EFCB06692E79FB3E00439B2E /* AnimatedModalButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCB06512E79FB3C00439B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB065E2E79FB3E00439B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB06682E79FB3E00439B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCB064F2E79FB3C00439B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB065C2E79FB3E00439B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB06662E79FB3E00439B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCB06622E79FB3E00439B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCB06522E79FB3C00439B2E /* AnimatedModalButton */;
+			targetProxy = EFCB06612E79FB3E00439B2E /* PBXContainerItemProxy */;
+		};
+		EFCB066C2E79FB3E00439B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCB06522E79FB3C00439B2E /* AnimatedModalButton */;
+			targetProxy = EFCB066B2E79FB3E00439B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFCB06722E79FB3E00439B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFCB06732E79FB3E00439B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCB06752E79FB3E00439B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCB06762E79FB3E00439B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFCB06782E79FB3E00439B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedModalButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedModalButton";
+			};
+			name = Debug;
+		};
+		EFCB06792E79FB3E00439B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedModalButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimatedModalButton";
+			};
+			name = Release;
+		};
+		EFCB067B2E79FB3E00439B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedModalButton;
+			};
+			name = Debug;
+		};
+		EFCB067C2E79FB3E00439B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.AnimatedModalButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedModalButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCB064E2E79FB3C00439B2E /* Build configuration list for PBXProject "AnimatedModalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB06722E79FB3E00439B2E /* Debug */,
+				EFCB06732E79FB3E00439B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB06742E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB06752E79FB3E00439B2E /* Debug */,
+				EFCB06762E79FB3E00439B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB06772E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB06782E79FB3E00439B2E /* Debug */,
+				EFCB06792E79FB3E00439B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB067A2E79FB3E00439B2E /* Build configuration list for PBXNativeTarget "AnimatedModalButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB067B2E79FB3E00439B2E /* Debug */,
+				EFCB067C2E79FB3E00439B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCB064B2E79FB3C00439B2E /* Project object */;
+}
